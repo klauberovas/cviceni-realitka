@@ -1,0 +1,38 @@
+/* intuitivnejsi box-sizing */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.apartment {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.apartment__title {
+  font-style: italic;
+
+}
+
+
+.apartment__picture {
+  max-width: 100%;
+}
+
+.apartment__picture--start {
+  height: 50vh;
+}
+
+.apartment__gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
